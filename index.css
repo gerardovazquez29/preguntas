@@ -1,0 +1,44 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dcb2b2;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(166, 184, 166);
+    border: none;
+    border-radius: 5px;
+}
+h2 {
+    color: #1a1818;
+    margin-top: 50px;
+}
+p {
+    font-weight: 180px;
+    font-style: italic;
+}
+input {
+    width: 180px;
+    height: 30px;
+}
+#cuentaRegresiva {
+    border: 1px ;
+    border-color: blue;
+    border-style: solid;
+    color: blue;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}

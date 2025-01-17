@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Preguntas</title>
+</head>
+<body onload="comenzarCuentaRegresiva()">
+    <h1>cuestionario</h1>
+    <h2>Responde las preguntas lo mas rapido que puedas <span id="cuentaRegresiva"></span></h2>
+
+    <p>1. cuanto es 5 x 7 ?</p>
+    <input type="text" id="respuesta1">
+    <p>2.cual es la capital de España?</p>
+    <input type="text" id="respuesta2">
+    <p>3. Quien descubrio a America?</p>
+    <input type="text" id="respuesta3">
+    <p>4. cuanto es (7 * 5) + 15?</p>
+    <input type="text" id="respuesta4">
+    <p>5. Simbolo quimico del agua?</p>
+    <input type="text" id="respuesta5">
+    <br><br>
+
+    <button onclick="finalizado()">Finalizar</button>
+    <br><br>
+    <button onclick="volverAIntentar()">Volver a Intentar</button>
+
+
+    <audio id="audioFinal">
+        <source src="/gameover.mp3" type="audio/mp3">
+        <p>sonido no habilitado</p>
+    </audio>
+    
+    <footer class="footer">
+        <p>Gerardo Santiago Vazquez &copy; 2025 </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
