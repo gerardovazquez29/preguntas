@@ -32,7 +32,7 @@ input {
     border-style: solid;
     color: blue;
 }
-
+/* 
 footer {
     position: fixed;
     left: 0;
@@ -41,7 +41,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-}
+} */
 
 
 /* Media queries para dispositivos más pequeños */
@@ -63,7 +63,8 @@ footer {
     p {
         font-size: 1em;
     }
-    footer {
+    /* footer {
+
         position: relative;
         left: 0;
         bottom: 0;
@@ -71,5 +72,5 @@ footer {
         background-color: #333;
         color: white;
         text-align: center;
-    }
+    } */
 }
