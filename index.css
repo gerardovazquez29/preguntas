@@ -10,7 +10,7 @@ body {
 button {
     width: 180px;
     height: 50px;
-    background-color: rgb(166, 184, 166);
+    background-color: rgb(221, 141, 79);
     border: none;
     border-radius: 5px;
 }
@@ -48,13 +48,13 @@ footer {
 @media (max-width: 600px) {
     button {
         width: 70%;
-        height: 30px;
+        height: 40px;
         border-radius: 10px;
         border: solid 1px;
     }
 
     input {
-        width: 100%;
+        width: 70%;
         height: 20px;
     }
 
