@@ -47,8 +47,10 @@ footer {
 /* Media queries para dispositivos más pequeños */
 @media (max-width: 600px) {
     button {
-        width: 100%;
-        height: 20px;
+        width: 70%;
+        height: 30px;
+        border-radius: 10px;
+        border: solid 1px;
     }
 
     input {
