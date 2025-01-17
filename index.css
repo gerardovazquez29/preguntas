@@ -6,6 +6,13 @@ body {
     padding: 0;
     background-color: #dcb2b2;
 }
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: 50px;
+}
 
 button {
     width: 180px;
@@ -46,6 +53,13 @@ footer {
 
 /* Media queries para dispositivos más pequeños */
 @media (max-width: 600px) {
+    .preguntas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
     button {
         width: 70%;
         height: 40px;
